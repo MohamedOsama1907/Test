@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --bg-primary: blue;
+  --bg-secondary: gray;
+  --p-primary: 20px;
+  --p-secondary: 24px;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
