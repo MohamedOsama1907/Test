@@ -2,55 +2,25 @@
   box-sizing: border-box;
 }
 :root {
-  --bg-primary: blue;
-  --bg-secondary: gray;
-  --p-primary: 20px;
-  --p-secondary: 24px;
 }
 body {
   margin: 0;
   font-family: sans-serif;
 }
-
-.parent {
-  margin: 100px auto;
-  width: 1000px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto 300px 300px auto;
-  gap: 10px;
-  background-color: lightgray;
-  text-align: center;
-}
-.parent > div {
-  padding: 20px;
+.shape {
+  width: 500px;
+  height: auto;
 }
 
-.header {
-  grid-column: 1 / -1;
-  background-color: orange;
+.iconShape {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  margin-right: 10px;
 }
-.sidebar {
-  grid-column: 1/2;
-  grid-row: 2 / span 2;
-  background-color: rgb(63, 87, 158);
+.w-33-3 {
+  width: 33.3%;
 }
-.content1 {
-  grid-column: 2 / span 2;
-  grid-row: 2 / 3;
-  background-color: rgb(63, 234, 63);
-}
-.content2 {
-  grid-column: 2/3;
-  grid-row: 3/4;
-  background-color: rgb(181, 164, 12);
-}
-.content3 {
-  grid-column: 3/4;
-  grid-row: 3/4;
-  background-color: rgb(203, 40, 162);
-}
-.footer {
-  grid-column: 1 / -1;
-  background-color: rgb(255, 0, 0);
+.pointer {
+  cursor: pointer;
 }
